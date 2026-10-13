@@ -19,16 +19,18 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {/* Top Announcement Bar */}
-        <div style={{ background: '#022c22', color: '#a7f3d0', padding: '0.6rem 1.5rem', fontSize: '0.8125rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Sparkles size={14} color="#f59e0b" />
-            <span><strong>Welcoming New Families:</strong> Coordinated Same-Day Pediatric, Maternal &amp; Senior Visits</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
-            <span>Family Care Desk: <strong>+92 (21) 3584-3320</strong></span>
-            <a href="https://wa.me/923006654320" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#f59e0b' }}>
-              <MessageCircle size={14} color="#22c55e" /> WhatsApp Coordinator
-            </a>
+        <div className="top-banner">
+          <div className="container top-banner-inner">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Sparkles size={14} color="#f59e0b" />
+              <span><strong>Welcoming New Families:</strong> Same-Day Appointments for Kids, Parents &amp; Seniors</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+              <span>Family Care Desk: <strong>+92 (21) 3584-3320</strong></span>
+              <a href="https://wa.me/923006654320" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#f59e0b' }}>
+                <MessageCircle size={14} color="#22c55e" /> WhatsApp Care Desk
+              </a>
+            </div>
           </div>
         </div>
 
@@ -41,11 +43,11 @@ export default function RootLayout({
 
             <nav className="nav-links">
               <Link href="/#specialties" className="nav-link">Specialties</Link>
-              <Link href="/#family-bundles" className="nav-link">Family Bundles</Link>
-              <Link href="/#maternal-tracker" className="nav-link">Maternal Roadmap</Link>
-              <Link href="/#doctors" className="nav-link">Family Doctors</Link>
-              <Link href="/services" className="nav-link">Treatment Menu</Link>
-              <Link href="/#reviews" className="nav-link">Family Stories</Link>
+              <Link href="/#family-bundles" className="nav-link">Family Plans</Link>
+              <Link href="/#maternal-tracker" className="nav-link">Mother &amp; Baby</Link>
+              <Link href="/#doctors" className="nav-link">Our Doctors</Link>
+              <Link href="/services" className="nav-link">All Services</Link>
+              <Link href="/#reviews" className="nav-link">Reviews</Link>
             </nav>
 
             <div className="nav-actions">
@@ -55,7 +57,7 @@ export default function RootLayout({
               </a>
               <Link href="/booking" className="btn-primary" style={{ padding: '0.65rem 1.45rem', fontSize: '0.875rem' }}>
                 <Calendar size={15} style={{ flexShrink: 0 }} />
-                <span>Book Family Slot</span>
+                <span>Book Appointment</span>
               </Link>
             </div>
 

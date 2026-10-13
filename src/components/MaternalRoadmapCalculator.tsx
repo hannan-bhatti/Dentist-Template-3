@@ -51,11 +51,11 @@ export function MaternalRoadmapCalculator() {
       <div className={styles.header}>
         <span className="section-tag">
           <Flower2 size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Obstetric Excellence
+          Mother &amp; Baby Care
         </span>
-        <h2 className="section-title">Maternal Trimester Roadmap &amp; Milestone Guide</h2>
+        <h2 className="section-title">Your Step-by-Step Pregnancy Guide</h2>
         <p className="section-subtitle">
-          Select your pregnancy stage to explore recommended 4D fetal ultrasound scans, essential blood panels, and personalized advice from Dr. Ayesha Munir.
+          Select your pregnancy stage below to see recommended checkups, ultrasound scans, and friendly advice from our maternity team.
         </p>
       </div>
 

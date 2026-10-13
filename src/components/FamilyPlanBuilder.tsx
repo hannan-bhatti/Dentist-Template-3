@@ -53,11 +53,11 @@ export function FamilyPlanBuilder() {
       <div className={styles.builderHeader}>
         <span className="section-tag">
           <HeartHandshake size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Multi-Generational Healthcare Bundles
+          Family Health Plans
         </span>
-        <h2 className="section-title">Interactive Family Healthcare Plan Builder</h2>
+        <h2 className="section-title">Customize Your Family Health Plan</h2>
         <p className="section-subtitle">
-          Bundle primary care visits, maternal checkups, pediatric dental cleanings, and routine lab tests. Enjoy bundled family savings with 0% interest 6-month installment plans.
+          Choose a plan for your household below, add any extra care you need, and see your transparent pricing instantly.
         </p>
       </div>
 

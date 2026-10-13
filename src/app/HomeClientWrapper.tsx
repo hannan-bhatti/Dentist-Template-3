@@ -164,52 +164,52 @@ export function HomeClientWrapper({
           >
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <HeartHandshake size={13} /> Clinical Department
+                <HeartHandshake size={13} /> Medical Service
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedDept}
                 onChange={(e) => setSelectedDept(e.target.value)}
               >
-                <option value="family-phy">Family Medicine &amp; Primary Care</option>
-                <option value="gynea">Obstetrics, Gynea &amp; Maternal</option>
-                <option value="dental">Gentle Family &amp; Pediatric Dental</option>
-                <option value="physiotherapy">Physiotherapy &amp; Rehabilitation</option>
-                <option value="cardiology">Preventive Cardiology &amp; Heart</option>
-                <option value="labs">Diagnostic Labs &amp; Phlebotomy</option>
+                <option value="family-phy">Family Doctor &amp; Everyday Care</option>
+                <option value="gynea">Women's Health &amp; Maternity</option>
+                <option value="dental">Gentle Family &amp; Kids Dentistry</option>
+                <option value="physiotherapy">Physiotherapy &amp; Pain Relief</option>
+                <option value="cardiology">Heart Care &amp; Checkups</option>
+                <option value="labs">Diagnostic Lab Tests</option>
               </select>
             </div>
 
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Award size={13} /> Family Physician
+                <Award size={13} /> Doctor
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedDoctor}
                 onChange={(e) => setSelectedDoctor(e.target.value)}
               >
-                <option value="any">First Available Family Consultant</option>
-                <option value="dr-zainab">Dr. Zainab Hashim (Family &amp; Pediatrics)</option>
-                <option value="dr-ayesha">Dr. Ayesha Munir (Obstetrics &amp; Gynea)</option>
-                <option value="dr-saad">Dr. Saad Khurram (Pediatric Dental)</option>
+                <option value="any">First Available Doctor</option>
+                <option value="dr-zainab">Dr. Zainab Hashim (Family &amp; Kids)</option>
+                <option value="dr-ayesha">Dr. Ayesha Munir (Women's Health)</option>
+                <option value="dr-saad">Dr. Saad Khurram (Kids Dentistry)</option>
                 <option value="dr-hira">Dr. Hira Tariq (Physiotherapy)</option>
-                <option value="dr-asif">Dr. Asif Jamil (Cardiology)</option>
+                <option value="dr-asif">Dr. Asif Jamil (Heart Care)</option>
               </select>
             </div>
 
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Clock size={13} /> Preferred Window
+                <Clock size={13} /> Time of Day
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedTime}
                 onChange={(e) => setSelectedTime(e.target.value)}
               >
-                <option value="morning">Morning Family Slot (9:00 AM – 1:00 PM)</option>
-                <option value="afternoon">After-School &amp; Work Slot (2:00 PM – 5:30 PM)</option>
-                <option value="evening">Evening Private Session (6:00 PM – 8:30 PM)</option>
+                <option value="morning">Morning (9:00 AM – 1:00 PM)</option>
+                <option value="afternoon">Afternoon (2:00 PM – 5:30 PM)</option>
+                <option value="evening">Evening (6:00 PM – 8:30 PM)</option>
               </select>
             </div>
 
@@ -220,7 +220,7 @@ export function HomeClientWrapper({
                 style={{ padding: '0.85rem 1.75rem', width: '100%' }}
               >
                 <Calendar size={16} />
-                <span>Check Live Calendar</span>
+                <span>Book Appointment</span>
               </Link>
             </div>
           </motion.div>
@@ -231,10 +231,10 @@ export function HomeClientWrapper({
       <section id="specialties" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Integrated Family Care</span>
-            <h2 className="section-title">Six Comprehensive Specialty Centers</h2>
+            <span className="section-tag">Our Services</span>
+            <h2 className="section-title">Specialized Care for Every Family Member</h2>
             <p className="section-subtitle">
-              From newborn milestone checkups to maternal health and senior mobility, our departments work collaboratively for your household&apos;s peace of mind.
+              From newborn checkups to gentle dentistry and senior mobility, our friendly doctors work together to keep your whole family healthy.
             </p>
           </div>
 
@@ -311,10 +311,10 @@ export function HomeClientWrapper({
       <section id="doctors" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Dedicated Practitioners</span>
-            <h2 className="section-title">Meet Your Family Care Doctors</h2>
+            <span className="section-tag">Our Specialists</span>
+            <h2 className="section-title">Meet Your Friendly Family Doctors</h2>
             <p className="section-subtitle">
-              Experienced, gentle clinicians who listen with compassion, explain with clarity, and care for your loved ones as their own.
+              Experienced, gentle doctors who listen with compassion, explain clearly, and care for your loved ones as their own.
             </p>
           </div>
 
@@ -350,7 +350,7 @@ export function HomeClientWrapper({
                     style={{ width: '100%', justifyContent: 'center', fontSize: '0.88rem' }}
                   >
                     <Calendar size={15} />
-                    <span>Consult with {doc.name.split(',')[0]}</span>
+                    <span>Book with {doc.name.split(',')[0]}</span>
                   </Link>
                 </motion.div>
               </TiltCard>
@@ -363,10 +363,10 @@ export function HomeClientWrapper({
       <section id="reviews" className="section" style={{ background: 'var(--bg-subtle)' }}>
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Warm Testimonials</span>
-            <h2 className="section-title">Stories from Our Registered Families</h2>
+            <span className="section-tag">Family Stories</span>
+            <h2 className="section-title">Real Reviews from Happy Families</h2>
             <p className="section-subtitle">
-              Read how parents, mothers, and senior grandparents experience stress-free, compassionate care at Vitalis.
+              Read how parents, mothers, and grandparents experience stress-free, compassionate care at Vitalis.
             </p>
           </div>
 
@@ -406,10 +406,10 @@ export function HomeClientWrapper({
       <section id="faq" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Helpful Details</span>
+            <span className="section-tag">Help &amp; Answers</span>
             <h2 className="section-title">Frequently Asked Questions</h2>
             <p className="section-subtitle">
-              Answers regarding our family bundles, coordinated visits, and doorstep pediatric blood draws.
+              Clear answers regarding our family health plans, same-day visits, and home blood tests.
             </p>
           </div>
 
@@ -463,20 +463,20 @@ export function HomeClientWrapper({
           >
             <span className={styles.visualPill} style={{ marginBottom: '1rem' }}>
               <HeartHandshake size={14} color="#fde68a" />
-              Neighborhood Family Care
+              Caring Neighborhood Clinic
             </span>
             <h2 className={styles.vipTitle}>Give Your Entire Family the Care They Deserve.</h2>
             <p className={styles.vipSub}>
-              Register your household with Vitalis Family Polyclinic today. Priority coordinated appointments across DHA Karachi and Lahore.
+              Book an appointment with friendly doctors in DHA Karachi and Lahore today. Same-day appointments available for kids and adults.
             </p>
             <div className={styles.vipActions}>
               <Link href="/booking" className="btn-amber">
                 <Calendar size={17} />
-                <span>Enroll Your Household Online</span>
+                <span>Book Appointment Online</span>
               </Link>
               <a href="tel:+922135843320" className="btn-secondary" style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)' }}>
                 <Phone size={16} />
-                <span>Call Coordinator: (021) 3584-3320</span>
+                <span>Call Us: (021) 3584-3320</span>
               </a>
             </div>
           </motion.div>
