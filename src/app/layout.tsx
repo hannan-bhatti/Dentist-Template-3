@@ -27,8 +27,9 @@ export default function RootLayout({
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
               <span>Family Care Desk: <strong>+92 (21) 3584-3320</strong></span>
-              <a href="https://wa.me/923006654320" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#f59e0b' }}>
-                <MessageCircle size={14} color="#22c55e" /> WhatsApp Care Desk
+              <a href="https://wa.me/923006654320" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#25d366', fontWeight: 600 }}>
+                <MessageCircle size={14} color="#25d366" />
+                <span style={{ color: '#25d366' }}>WhatsApp Care Desk</span>
               </a>
             </div>
           </div>

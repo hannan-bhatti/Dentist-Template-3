@@ -122,7 +122,7 @@ export function HomeClientWrapper({
                     <HeartHandshake size={13} />
                     Integrative Family Polyclinic
                   </span>
-                  <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3 }}>
+                  <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3, color: '#ffffff' }}>
                     Lifelong Healthcare Stewardship Under One Caring Roof
                   </h3>
                   <p style={{ fontSize: '0.88rem', color: '#a7f3d0', maxWidth: 360 }}>
@@ -474,9 +474,9 @@ export function HomeClientWrapper({
                 <Calendar size={17} />
                 <span>Book Appointment Online</span>
               </Link>
-              <a href="tel:+922135843320" className="btn-secondary" style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)' }}>
-                <Phone size={16} />
-                <span>Call Us: (021) 3584-3320</span>
+              <a href="tel:+922135843320" className="btn-secondary" style={{ background: 'rgba(255,255,255,0.08)', color: '#ffffff', borderColor: 'rgba(255,255,255,0.35)' }}>
+                <Phone size={16} color="#ffffff" />
+                <span style={{ color: '#ffffff' }}>Call Us: (021) 3584-3320</span>
               </a>
             </div>
           </motion.div>

@@ -179,10 +179,10 @@ export function FamilyPlanBuilder() {
               href={`https://wa.me/923006654320?text=${whatsappMsg}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
-              style={{ width: '100%', justifyContent: 'center', background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.25)' }}
+              className="btn-whatsapp-outline"
+              style={{ width: '100%', justifyContent: 'center' }}
             >
-              <MessageCircle size={16} color="#22c55e" />
+              <MessageCircle size={17} color="#25d366" />
               <span>Chat with Family Coordinator</span>
             </a>
           </div>

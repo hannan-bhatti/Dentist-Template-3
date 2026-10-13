@@ -392,10 +392,10 @@ export function BookingClientWrapper() {
                         href={`https://wa.me/923006654320?text=Hello%20Vitalis%20Family%20Health,%20I%20just%20reserved%20an%20appointment%20for%20${encodeURIComponent(deptNames[selectedDept])}%20on%20${encodeURIComponent(selectedDay.fullDateString)}%20at%20${encodeURIComponent(selectedSlot)}.%20Looking%20forward%20to%20our%20family%20visit.`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn-primary"
-                        style={{ background: '#25d366', justifyContent: 'center' }}
+                        className="btn-whatsapp"
+                        style={{ width: '100%', justifyContent: 'center' }}
                       >
-                        <MessageCircle size={16} />
+                        <MessageCircle size={16} color="#ffffff" />
                         <span>Open WhatsApp Family Desk</span>
                       </a>
 
